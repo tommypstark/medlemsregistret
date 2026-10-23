@@ -22,13 +22,13 @@ public class Main {
                     Medlem medlem = new Medlem(namn, medlemsnummer);
                     register.laggTillMedlem(medlem);
                 }
-                case 2 -> {
-                    register.visaAllaMedlemmar();
-                }
+                case 2 -> register.visaAllaMedlemmar();
                 case 3 -> {
-
+                    System.out.print("Ange namn på medlem att söka efter: ");
+                    String namn = input.nextLine();
+                    register.sokMedlem(namn);
                 }
-                case 4 -> System.out.println("Programmet avslutas. Hej då!");
+                case 4 -> System.out.println("Programmet avslutas...");
             }
         }
 
