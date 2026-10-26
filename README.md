@@ -24,13 +24,10 @@ någon av gruppmedlemmarnas arbete.
 
 ## 1. Datalogiskt tänkande (J-Lo)
 
-Vi började med att gå igenom projektet tillsammans och fundera på vilka delar som behövde finnas med.
-Projektet innehöll tre klasser, så vi bestämde oss för att fördela arbetet så att varje gruppmedlem ansvarade för varsin
-klass.
-Därefter delade vi upp uppgiften i mindre steg, som att skapa klasser, lägga till metoder och få de olika funktionerna
-att fungera tillsammans.
-Det gjorde det enklare att planera arbetet och fördela uppgifterna inom gruppen. På så sätt kunde vi arbeta steg för
-steg och få en bättre överblick över projektets utveckling.
+Vi började med att gå igenom uppgiften tillsammans och fundera på vilka delar som behövde finnas med. 
+Vi delade upp programmet i tre klasser och bestämde att varje gruppmedlem skulle ansvara för varsin klass. 
+Vår att-göra-lista bestod av att skapa klasserna, lägga till nödvändiga fält och metoder samt få de olika funktionerna att fungera tillsammans. 
+Genom att arbeta steg för steg fick vi en tydlig struktur och bättre överblick över projektets utveckling.
 
 ## 2. Klass och objekt (Jonny)
 
@@ -73,6 +70,6 @@ namnet på metoden som implementerades i `Register.java`.
 Vi har också använt AI för att planera en övning där vi avsiktligt skapade en Git-konflikt, så att vi fick träna på att
 lösa ett sådant problem.
 
-## Konfliktövning (Jonny + J-Lo)
+## Konfliktövning (Jonny + J-lo + Tommy)
 
 Status: Konflikten löst!
