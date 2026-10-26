@@ -1,11 +1,32 @@
 # Klubbens medlemsregister
 
+## Arbetsfördelning
+
+<b>Tommy:</b> Main.java – Meny, användarinmatning och koppling till övriga klasser.
+
+<b>Johanna-Louise (J-Lo)</b>: Medlem.java – Medlemsobjekt med namn, medlemsnummer, konstruktor och getters.
+
+<b>Jonny:</b> Register.java – Medlemslista och metoder för att lägga till, visa och söka efter medlemmar.
+
+## Vår Git-konfliktövning
+
+För att öva på konfliktlösning ändrade två gruppmedlemmar avsiktligt samma rad i README.md, på varsin branch.
+
+När den första pull requesten hade mergats till main uppstod en konflikt i den andra. Vi löste konflikten i GitHubs
+editor genom att behålla bådas texter, ta bort dubblerade rubriker och ersätta de motstridiga statusraderna med en
+gemensam text.
+
+På så sätt fick vi träna på att lösa en Git-konflikt utan att förlora någon av gruppmedlemmarnas arbete.
+
 ## 1. Datalogiskt tänkande (J-Lo)
 
 Vi började med att gå igenom projektet tillsammans och fundera på vilka delar som behövde finnas med.
-Projektet innehöll tre klasser, så vi bestämde oss för att fördela arbetet så att varje gruppmedlem ansvarade för varsin klass.
-Därefter delade vi upp uppgiften i mindre steg, som att skapa klasser, lägga till metoder och få de olika funktionerna att fungera tillsammans.
-Det gjorde det enklare att planera arbetet och fördela uppgifterna inom gruppen. På så sätt kunde vi arbeta steg för steg och få en bättre överblick över projektets utveckling.
+Projektet innehöll tre klasser, så vi bestämde oss för att fördela arbetet så att varje gruppmedlem ansvarade för varsin
+klass.
+Därefter delade vi upp uppgiften i mindre steg, som att skapa klasser, lägga till metoder och få de olika funktionerna
+att fungera tillsammans.
+Det gjorde det enklare att planera arbetet och fördela uppgifterna inom gruppen. På så sätt kunde vi arbeta steg för
+steg och få en bättre överblick över projektets utveckling.
 
 ## 2. Klass och objekt (Jonny)
 
@@ -38,8 +59,8 @@ Main.java i mappen. Därefter kunde de andra gruppmedlemmarna klona projektet oc
 
 Vi har använt AI för att strukturera upp gruppens arbete. Vi har inte bett om färdiga lösningar, utan använt AI som
 vägledning när vi har behövt hjälp. AI har exempelvis föreslagit metodnamn som vi senare valde att ändra för att passa
-vår kod. Vi har också använt AI för att planera en övning där vi avsiktligt ska skapa en Git-konflikt, så att vi får
-träna på att lösa sådana problem.
+vår kod. Vi har också använt AI för att planera en övning där vi avsiktligt skapade en Git-konflikt, så att vi fick
+träna på att lösa ett sånt problem.
 
 ## Konfliktövning (Jonny + J-lo)
 
