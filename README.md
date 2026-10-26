@@ -35,7 +35,8 @@ Vi delade upp programmet i tre klasser med olika ansvarsområden. Tommy arbetade
 Johanna med Medlem.java och jag med Register.java. Min klass ansvarar för att hantera medlemmarna
 i registret. Jag använde en ArrayList för att lagra medlemsobjekten och skapade metoder för att
 lägga till, visa och söka efter medlemmar. Varje medlem är ett eget objekt som skapas utifrån
-klassen Medlem.
+klassen Medlem. Vi använder en egen klass för Medlem eftersom varje medlem ska vara ett eget objekt.
+Det gör koden mer organiserad, lättare att återanvända och enklare att utveckla
 
 Jag använde även private för att skydda listan med medlemmar, så att andra klasser inte kan
 ändra den direkt. I stället hanteras listan genom klassens metoder. Det kallas inkapsling.
