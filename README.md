@@ -2,6 +2,11 @@
 
 ## 1. Datalogiskt tänkande (J-Lo)
 
+Vi började med att gå igenom projektet tillsammans och fundera på vilka delar som behövde finnas med.
+Projektet innehöll tre klasser, så vi bestämde oss för att fördela arbetet så att varje gruppmedlem ansvarade för varsin klass.
+Därefter delade vi upp uppgiften i mindre steg, som att skapa klasser, lägga till metoder och få de olika funktionerna att fungera tillsammans.
+Det gjorde det enklare att planera arbetet och fördela uppgifterna inom gruppen. På så sätt kunde vi arbeta steg för steg och få en bättre överblick över projektets utveckling.
+
 ## 2. Klass och objekt (Jonny)
 
 Vi delade upp programmet i tre klasser med olika ansvarsområden. Tommy arbetade med Main.java,
@@ -38,4 +43,4 @@ träna på att lösa sådana problem.
 
 ## Konfliktövning (Jonny + J-lo)
 
-Status: Jonny klar
+Status: Konflikten löst!
