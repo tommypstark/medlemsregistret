@@ -2,21 +2,25 @@
 
 ## Arbetsfördelning
 
-<b>Tommy:</b> Main.java – Meny, användarinmatning och koppling till övriga klasser.
+- **Tommy – `Main.java`, `README.md`**  
+  Meny och användarinmatning. Skapade även projektet, GitHub-repot och README-grunden. Skrev punkterna 3–5.
 
-<b>Johanna-Louise (J-Lo)</b>: Medlem.java – Medlemsobjekt med namn, medlemsnummer, konstruktor och getters.
+- **Johanna-Louise (J-Lo) – `Medlem.java`, `README.md`**  
+  Medlemsobjekt med konstruktor och getters. Skrev punkt 1.
 
-<b>Jonny:</b> Register.java – Medlemslista och metoder för att lägga till, visa och söka efter medlemmar.
+- **Jonny – `Register.java`, `README.md`**  
+  Medlemslista och metoder för medlemshantering. Skrev punkt 2.
 
 ## Vår Git-konfliktövning
 
-För att öva på konfliktlösning ändrade två gruppmedlemmar avsiktligt samma rad i README.md, på varsin branch.
+För att öva på konfliktlösning ändrade två gruppmedlemmar avsiktligt samma rad i `README.md`, på varsin branch.
 
-När den första pull requesten hade mergats till main uppstod en konflikt i den andra. Vi löste konflikten i GitHubs
-editor genom att behålla bådas texter, ta bort dubblerade rubriker och ersätta de motstridiga statusraderna med en
-gemensam text.
+När den första pull requesten hade mergats till `main` uppstod en konflikt i den andra. Tommy ansvarade för själva
+konfliktlösningen i GitHubs editor medan han delade sin skärm med gruppen via Discord. Han såg till att bådas texter
+behölls, tog bort dubblerade rubriker och ersatte de motstridiga statusraderna med en gemensam text.
 
-På så sätt fick vi träna på att lösa en Git-konflikt utan att förlora någon av gruppmedlemmarnas arbete.
+På så sätt kunde hela gruppen följa konfliktlösningen och lära sig hur man hanterar en Git-konflikt utan att förlora
+någon av gruppmedlemmarnas arbete.
 
 ## 1. Datalogiskt tänkande (J-Lo)
 
@@ -45,23 +49,30 @@ med våra egna delar.
 ## 3. Samarbete i Git (Tommy)
 
 Vi har samarbetat på GitHub med hjälp av en privat gruppchatt i Discord. Vi har både fört muntliga samtal och chattat.
+
 Vi beslutade oss gemensamt för att jobba på enskilda grenar, så att vi kan jobba enskilt men samtidigt få öva på ett
-realistiskt gitflöde. Vi undvek konflikter genom att tilldela varje person en egen klass och låta någon annan i gruppen
-granska och merga våra pull requests, i stället för att göra det själva.
+realistiskt Git-flöde. Under utvecklingen av Java-programmet undvek vi konflikter genom att tilldela varje person en
+egen klass och låta någon annan i gruppen granska och merga våra pull requests, i stället för att göra det själva.
 
 ## 4. Ett problem vi löste (Tommy)
 
-När vi startade projektet insåg vi att Git inte versionshanterar tomma mappar, vilket innebar att våra kurskamrater inte
-skulle få med sig src-mappen när de klonade projektet. Vi löste det genom att först skapa och ladda upp en nästan tom
-Main.java i mappen. Därefter kunde de andra gruppmedlemmarna klona projektet och skapa sina respektive klasser.
+När vi startade projektet insåg vi att Git inte versionshanterar tomma mappar, vilket innebar att övriga gruppmedlemmar
+inte skulle få med sig `src`-mappen när de klonade projektet.
+
+Vi löste det genom att först skapa och ladda upp en nästan tom `Main.java` i mappen. Därefter kunde de andra
+gruppmedlemmarna klona projektet och skapa sina respektive klasser.
 
 ## 5. AI och externa hjälpmedel (Tommy)
 
 Vi har använt AI för att strukturera upp gruppens arbete. Vi har inte bett om färdiga lösningar, utan använt AI som
-vägledning när vi har behövt hjälp. AI har exempelvis föreslagit metodnamn som vi senare valde att ändra för att passa
-vår kod. Vi har också använt AI för att planera en övning där vi avsiktligt skapade en Git-konflikt, så att vi fick
-träna på att lösa ett sånt problem.
+vägledning när vi har behövt hjälp.
 
-## Konfliktövning (Jonny + J-lo)
+ChatGPT föreslog exempelvis metodnamnet `listaAlla()`, men vi använde i stället `visaAllaMedlemmar()` eftersom det var
+namnet på metoden som implementerades i `Register.java`.
+
+Vi har också använt AI för att planera en övning där vi avsiktligt skapade en Git-konflikt, så att vi fick träna på att
+lösa ett sådant problem.
+
+## Konfliktövning (Jonny + J-Lo)
 
 Status: Konflikten löst!
