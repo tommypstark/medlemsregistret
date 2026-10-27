@@ -9,7 +9,7 @@ public class Main {
         while (val != 4) {
             System.out.println("\n===  MEDLEMSREGISTER  ===");
             System.out.println("1. Lägg till medlem\n2. Visa alla medlemmar\n3. Sök medlem\n4. Avsluta");
-            System.out.print("Ditt val: ");
+            System.out.print("\nDitt val: ");
             if (!input.hasNextInt()) {
                 System.out.println("\nSkriv ett heltal mellan 1 och 4.");
                 input.nextLine();
@@ -22,6 +22,11 @@ public class Main {
                     System.out.print("\nSkriv namn på medlem: ");
                     String namn = input.nextLine();
                     System.out.print("Skriv medlemsnummer: ");
+                    if (!input.hasNextInt()) {
+                        System.out.println("\nMedlemsnumret måste vara ett heltal.");
+                        input.nextLine();
+                        continue;
+                    }
                     int medlemsnummer = input.nextInt();
                     input.nextLine();
                     Medlem medlem = new Medlem(namn, medlemsnummer);
