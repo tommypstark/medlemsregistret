@@ -14,7 +14,7 @@ public class Main {
             input.nextLine();
             switch (val) {
                 case 1 -> {
-                    System.out.print("Skriv namn på medlem: ");
+                    System.out.print("\nSkriv namn på medlem: ");
                     String namn = input.nextLine();
                     System.out.print("Skriv medlemsnummer: ");
                     int medlemsnummer = input.nextInt();
@@ -24,13 +24,14 @@ public class Main {
                 }
                 case 2 -> register.visaAllaMedlemmar();
                 case 3 -> {
-                    System.out.print("Ange namn på medlem att söka efter: ");
+                    System.out.print("\nAnge namn på medlem att söka efter: ");
                     String namn = input.nextLine();
+                    System.out.println();
                     register.sokMedlem(namn);
                 }
                 case 4 -> System.out.println("Programmet avslutas...");
+                default -> System.out.println("\nVälj ett nummer mellan 1 och 4.");
             }
         }
-
     }
 }
