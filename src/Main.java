@@ -7,9 +7,9 @@ public class Main {
         int val = 0;
 
         while (val != 4) {
-            System.out.println("\n===  MEDLEMSREGISTER  ===");
+            System.out.println("\n\u001B[93m===  MEDLEMSREGISTER  ===\u001B[0m");
             System.out.println("1. Lägg till medlem\n2. Visa alla medlemmar\n3. Sök medlem\n4. Avsluta");
-            System.out.print("\nDitt val: ");
+            System.out.print("\u001B[92mDitt val: \u001B[0m");
             if (!input.hasNextInt()) {
                 System.out.println("\nSkriv ett heltal mellan 1 och 4.");
                 input.nextLine();
